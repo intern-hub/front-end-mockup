@@ -1,0 +1,74 @@
+.header {
+  background-color: #000000;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+.ih-logo, .menu-item, .wrapper {
+  cursor: pointer;
+  padding: 0.35rem;
+}
+.ih-logo {
+  height: 2rem;
+}
+.menu-item {
+  display: inline-block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  flex: 1
+}
+.wrapper:hover {
+  background-color: #555555;
+}
+
+.profile {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+}
+.big-text {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.search {
+  margin-bottom: 1rem;
+}
+
+.search-bar input {
+  font-size: 1.2rem;
+  padding: 0.25rem;
+  width: 20rem;
+  border-radius: 0.8rem;
+  border: solid gray 0.1rem;
+}
+
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  margin: 0.5rem;
+}
+
+.item {
+  padding: 0.35rem;
+}
+
+.company-logo {
+  width: 3rem;
+}
+
+.position {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
