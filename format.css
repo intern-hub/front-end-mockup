@@ -1,3 +1,6 @@
+body {
+  margin: 0rem;
+}
 .header {
   background-color: #000000;
   height: 2.5rem;
@@ -7,6 +10,9 @@
 .ih-logo, .menu-item, .wrapper {
   cursor: pointer;
   padding: 0.35rem;
+}
+.logo-wrapper {
+  margin-top: 0.25rem;
 }
 .ih-logo {
   height: 2rem;
@@ -29,6 +35,22 @@
 
 .center {
   text-align: center;
+}
+
+.profile-dropdown {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  display: none;
+  text-align: center;
+  height: 10rem;
+  width: 7rem;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  border: solid gray 0.2rem;
+  background-color: white;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 .container {
@@ -58,6 +80,11 @@
   justify-content: space-between;
   background-color: #eeeeee;
   margin: 0.5rem;
+  cursor: pointer;
+}
+
+.table:hover {
+  background-color: #dadada;
 }
 
 .item {
@@ -68,7 +95,7 @@
   width: 3rem;
 }
 
-.position {
+.job-title, .company-name {
   font-size: 1.5rem;
   font-weight: bold;
 }
